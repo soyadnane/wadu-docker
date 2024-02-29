@@ -1,0 +1,12 @@
+#mvv .my-card-header, #mvv .my-card-footer {
+    text-align: center !important;
+}
+
+#mvv .bi{
+    color: #01bb92;
+    font-size: 2rem;
+}
+
+#contacto .gmail {
+    color: #5a5a5a;
+}

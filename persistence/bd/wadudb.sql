@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS wadudb;
+
+USE wadudb;
+
+CREATE TABLE IF NOT EXISTS `wadudb`.`usuarios` 
+(`id` INT NOT NULL AUTO_INCREMENT , 
+`name` VARCHAR(250) NOT NULL , 
+`nickname` VARCHAR(250) NOT NULL , 
+`email` VARCHAR(250) NOT NULL , 
+`password` VARCHAR(250) NOT NULL , 
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
